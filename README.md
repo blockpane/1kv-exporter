@@ -76,3 +76,8 @@ onekv_unclaimed_eras{chain="kusama",validator_name="some-awesome-validator"} 0
 ## Contributing
 
 Fork it, modify it, open an issue, open a pull request that references the issue, and ping me on matrix: @blockpane:matrix.org
+
+## TODOs (contributions welcome)
+
+* add more awesome stats
+* add example grafana dashboard
