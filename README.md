@@ -3,6 +3,10 @@
 A simple exporter that scrapes the thousand node validator API every few minutes, and exposes that data as a 
 prometheus endpoint. By default exposes the metrics at http://[host]:17586/metrics
 
+_Note: this is alpha quality software (at best,) very little testing has been done to check correctness. 
+If you use this, expect it to be wrong. And if it's important enough to you that it works correctly, 
+pull requests are welcomed._
+
 ## Options:
 
 ```
