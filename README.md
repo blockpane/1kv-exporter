@@ -75,7 +75,16 @@ onekv_unclaimed_eras{chain="kusama",validator_name="some-awesome-validator"} 0
 
 1. `git clone https://github.com/blockpane/1kv-exporter.git && cd 1kv-exporter`
 1. `docker build -t 1kv-exporter .`
-1. `docker run -d --restart unless-stopped -p 17586:17586 1kv-exporter -s EJCY3aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`
+1. `docker run -d --restart unless-stopped --name 1kv-exporter -p 17586:17586 1kv-exporter -s EJCY3aaaa...`
+
+Then add it to the prometheus config with something like:
+
+```yaml
+  - job_name: "1kv"
+    scrape_interval: 5m
+    static_configs:
+     - targets: ["hostname:17586"]
+```
 
 ## Contributing
 
