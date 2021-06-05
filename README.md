@@ -8,6 +8,13 @@ If you use this at this early stage, expect it to be wrong. Contributions are mo
 to open a ticket and I'll see what I can do. It will improve as I experience various conditions and get through
 a few nomination cycles._
 
+## Grafana Dashboard
+
+There is an included dashboard that incorporates data from the substrate exporter, linux exporter and this exporter.
+It can be used as a starting point for your own 1kv dashboard.
+
+![1kv dashboard screenshot](1kv-dash.png)
+
 ## Options:
 
 ```
