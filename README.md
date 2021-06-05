@@ -4,8 +4,9 @@ A simple exporter that scrapes the thousand node validator API every few minutes
 prometheus endpoint. By default exposes the metrics at http://[host]:17586/metrics
 
 _Note: this is alpha quality software (at best,) very little testing has been done to check correctness. 
-If you use this, expect it to be wrong. And if it's important enough to you that it works correctly, 
-pull requests are welcomed._
+If you use this at this early stage, expect it to be wrong. Contributions are most-welcome, but also feel free
+to open a ticket and I'll see what I can do. It will improve as I experience various conditions and get through
+a few nomination cycles._
 
 ## Options:
 
@@ -94,3 +95,7 @@ Fork it, modify it, open an issue, open a pull request that references the issue
 
 * add more awesome stats
 * add example grafana dashboard
+
+## Thanks
+
+If you find this useful delegator votes are the best way to say thanks: `EJCY3iiVFgHH3RQn5EPKA1opf1oHRAbeiqsoCnXUQxpWp9k`
